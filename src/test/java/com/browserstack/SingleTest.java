@@ -15,7 +15,7 @@ public class SingleTest extends BrowserStackJUnitTest {
 
     open("http://www.google.com");
 
-    $(By.name("q")).setValue("Selenide").pressEnter();
+    $(By.name("q")).setValue("browserstack").pressEnter();
 
     sleep(2000);
 

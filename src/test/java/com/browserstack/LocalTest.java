@@ -15,7 +15,7 @@ public class LocalTest extends BrowserStackJUnitTest {
 
       open("http://www.google.com");
 
-      $(("q")).setValue("Something new").pressEnter();
+      $(("q")).setValue("browserstack").pressEnter();
 
       sleep(2000);
 
