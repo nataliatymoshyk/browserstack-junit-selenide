@@ -1,0 +1,15 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "sessions3",
+  "key": "5yNE1VXgz5H9fAy8GoCq",
+
+  "capabilities": {
+    "build": "junit-browserstack",
+    "name": "single_test",
+    "browserstack.debug": true
+  },
+
+  "environments": [{
+    "browser": "chrome"
+  }]
+}
